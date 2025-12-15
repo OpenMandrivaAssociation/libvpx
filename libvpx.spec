@@ -7,7 +7,7 @@
 
 Summary:	VP8/9 Video Codec SDK
 Name:		libvpx
-Version:	1.15.1
+Version:	1.15.2
 Release:	1
 License:	BSD
 Group:		System/Libraries
