@@ -16,6 +16,11 @@ Source0:	https://github.com/webmproject/libvpx/archive/v%{version}/%{name}-%{ver
 %ifarch %{ix86} %{x86_64}
 # (Configure script uses `which` to locate yasm and nasm, so
 # while it looks odd, it's indeed an x86-only dependency)
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	which
 BuildRequires:	yasm
 %endif
